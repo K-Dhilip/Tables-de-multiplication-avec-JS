@@ -1,0 +1,52 @@
+.container {
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-auto-flow: dense;
+  gap: 10px;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  width: 70%;
+  margin: auto;
+}
+
+#table1,
+#table3,
+#table5,
+#table7,
+#table9,
+#table11 {
+  border-radius: 5px;
+  text-align: center;
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  overflow-wrap: break-word;
+}
+hr {
+  width: 80%;
+  border: 1px dashed white;
+}
+
+h2 {
+  overflow-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#table2,
+#table4,
+#table6,
+#table8,
+#table10,
+#table12 {
+  overflow-wrap: break-word;
+  border-radius: 5px;
+  background-color: rgb(255, 75, 105);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
